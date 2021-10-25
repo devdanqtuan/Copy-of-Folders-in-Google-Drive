@@ -1,6 +1,6 @@
 function main(){
-  let src = "https://drive.google.com/drive/folders/1_9nXZGdlGT9AktfWPa5JQIxcvgIzEYUG?usp=sharing";
-  let des = "https://drive.google.com/drive/folders/0APgVE4H8erK0Uk9PVA";
+  let src = "source";
+  let des = "target";
 
   src = src.split("folders/")[1].split("?usp=sharing")[0];
   des = des.split("folders/")[1].split("?usp=sharing")[0];
